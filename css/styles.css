@@ -7,6 +7,10 @@
   --lightGreen: #66d6a0;
   --darkGrey: #242424;
   --white: #ffffff;
+
+  --primary-font: Montserrat, sans-serif;
+  --secondary-font: Open Sans, sans-serif;
+  --main-txt-color: #242424;
 }
 /**
   |============================
@@ -60,6 +64,17 @@ button {
   height: auto;
 }
 
+body {
+  font-family: var(--primary-font);
+
+  /* color: #FFF; */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+}
 /* Phone styles */
 
 .container {
