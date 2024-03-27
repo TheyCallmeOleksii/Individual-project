@@ -1,3 +1,9 @@
+/**
+  |============================
+  | Root
+  |============================
+*/
+
 :root {
   --barkBlue: #194484;
   --mediumBlue: #0d6eb7;
@@ -12,3 +18,27 @@
   --secondary-font: Open Sans, sans-serif;
   --main-txt-color: #242424;
 }
+
+/**
+  |============================
+  | Reset style
+  |============================
+*/
+
+body {
+  font-family: var(--primary-font);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/**
+  |============================
+  | Main CSS styles
+  |============================
+*/
