@@ -87,7 +87,7 @@
           </p>
           <div class="hero-btn">
             <button type="button" class="hero-button">more</button>
-            <button type="button" class="hero-button">contact Us</button>
+            <button type="button" class="hero-button">contact us</button>
           </div>
         </div>
       </section>
@@ -98,7 +98,7 @@
 
       <section class="tech-section container">
         <h2 class="tech-title">TECHNOLOGIES</h2>
-        <p class="tech-txt">
+        <p class="tech-text">
           <span>Stan`s</span> <span>Assets</span> is a team of developers that
           are committed to developing high quality and engaging entertainment
           software
@@ -107,6 +107,7 @@
           href="https://www.android.com/"
           target="_blank"
           rel="noopener noreferrer"
+          class="tech-android-btn link"
         >
           <img
             class="tech-img"
@@ -120,6 +121,7 @@
           href="https://www.apple.com/"
           target="_blank"
           rel="noopener noreferrer"
+          class="tech-apple-btn link"
         >
           <img
             class="tech-img"
@@ -129,7 +131,12 @@
             height="38"
           />
         </a>
-        <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://unity.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="tech-unity-btn link"
+        >
           <img
             class="tech-img"
             src="./images/logo/unity-logo.svg"
@@ -138,7 +145,7 @@
             height="40"
           />
         </a>
-        <p>
+        <p class="tech-txt">
           Our engineers develop applications for the most popular platforms.
         </p>
         <div class="vote-area">
@@ -147,6 +154,7 @@
             alt="clutch-logo"
             width="132"
             height="74"
+            class="tech-clutch-logo"
           />
           <button class="revievs-btn">CHECK OUT REVIEWS</button>
         </div>
@@ -179,6 +187,7 @@
               alt="gamepad"
               width="550"
               height="395"
+              class="services-img"
             />
           </li>
           <li class="serv-list list">
@@ -201,6 +210,7 @@
               alt="website"
               width="550"
               height="395"
+              class="services-img"
             />
           </li>
           <li class="serv-list list">
@@ -223,6 +233,7 @@
               alt="robot"
               width="550"
               height="395"
+              class="services-img"
             />
           </li>
           <li class="serv-list list">
@@ -245,6 +256,7 @@
               alt="hand-and-VR"
               width="550"
               height="395"
+              class="services-img"
             />
           </li>
         </ul>
@@ -259,7 +271,7 @@
           LOOKING FOR A PARTNER IN BUILDING A SOLUTION?
         </h2>
         <p>We are ready to discuss your project requirements</p>
-        <button type="button">Let`s Talk</button>
+        <button type="button" class="partner-btn">Let`s Talk</button>
       </section>
 
       <!-- /Fourth Section -->
@@ -271,6 +283,7 @@
         <ul class="achievements-list list">
           <li class="achievements-things">
             <div class="achievements-img">
+              <img src="./images/achievements/puzzle.svg" alt="puzzle" />
               <p class="achievements-txt">
                 Collaboration with <span>Moon Studios</span> on WotW AAA Unity
                 game.
@@ -279,6 +292,7 @@
           </li>
           <li class="achievements-things">
             <div class="achievements-img">
+              <img src="./images/achievements/rocket.svg" alt="rocket" />
               <p class="achievements-txt">
                 <span>50+</span>successfully launched projects on the the
                 market.
@@ -287,6 +301,7 @@
           </li>
           <li class="achievements-things">
             <div class="achievements-img">
+              <img src="./images/achievements/phone.svg" alt="phone" />
               <p class="achievements-txt">
                 Asset store publisher since <span>2013</span>
               </p>
@@ -294,6 +309,7 @@
           </li>
           <li class="achievements-things">
             <div class="achievements-img">
+              <img src="./images/achievements/box.svg" alt="box" />
               <p class="achievements-txt">
                 Our products (packages) used by <span>100k+</span> devs in
                 <span>5k+</span> commercial projects worldwide
@@ -504,33 +520,35 @@
         </p>
         <address>
           <ul class="contacts-list list">
-            <li>Ukraine, Kyiv, Rodyny Kristeriv 20B, office 188</li>
+            <li class="address-txt">
+              Ukraine, Kyiv, Rodyny Kristeriv 20B, office 188
+            </li>
             <li>
-              <a
-                class="contacts-link phone-link link list"
-                href="tel:+380990942894"
-              >
-                +38 (099) 094 29 94
+              <a href="tel:+380990942894" class="contacts-link phone-link link">
+                +38 099 094 29 94
+              </a>
+            </li>
+            <li>
+              <a href="tel:+380999409499" class="contacts-link phone-link link">
+                +38 099 940 94 99
               </a>
             </li>
             <li>
               <a
-                class="contacts-link phone-link link list"
-                href="tel:+380999409499"
+                href="https://t.me/TheyCallmeOleksii"
+                class="messenger-link link"
+                >TheyCallmeOleksii</a
               >
-                +38 (099) 940 94 99
+            </li>
+            <li>
+              <a href="mailto:OleksiiTiabut@gmail.com" class="contacts-mail-fb"
+                >OleksiiTiabut@gmail.com
               </a>
             </li>
             <li>
-              <a href="https://t.me/TheyCallmeOleksii">TheyCallmeOleksii</a>
-            </li>
-            <li>
-              <a href="mailto:OleksiiTiabut@gmail.com"
-                >OleksiiTiabut@gmail.com</a
-              >
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/oleksii-tiabut/"
+              <a
+                href="https://www.linkedin.com/in/oleksii-tiabut/"
+                class="linkedin-link-fb"
                 >Linkedin/oleksii-tiabut</a
               >
             </li>
@@ -577,6 +595,8 @@
 
     <!--/Seventh Section-->
 
+    <!-- footer -->
+
     <footer class="container">
       <h2 class="footer section" hidden>FOOTER SECTION</h2>
       <ul class="footer-socials list">
@@ -584,7 +604,7 @@
           <svg class="footer-logo" width="54" height="51">
             <use href=""></use>
           </svg>
-          <p>stan’s assets</p>
+          <a href="index.html" class="footer-logo link">stan’s assets</a>
         </li>
         <li>
           <ul class="footer-socials-list list">
