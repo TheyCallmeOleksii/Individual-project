@@ -13,12 +13,13 @@
   --darkGrey: #242424;
   --white: #ffffff;
 
-  --primary-font: Montserrat, sans-serif;
+  --font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 2.25;
-  --secondary-font: Open Sans, sans-serif;
-  --main-txt-color: #242424;
+  --second-family: 'Harabara', sans-serif;
+  --third-family: 'Open Sans', sans-serif;
+  --font3: 'Noto Sans', sans-serif;
 }
 
 /**
@@ -28,7 +29,7 @@
 */
 
 body {
-  font-family: var(--primary-font);
+  font-family: var(--font-family);
 }
 
 .list {
@@ -100,8 +101,6 @@ body {
 }
 
 .hero-background {
-  width: 100%;
-  height: auto;
   position: absolute;
   top: 50px;
   left: 0;
@@ -111,6 +110,11 @@ body {
 }
 
 .hero-title {
+  width: 100%;
+  height: auto;
+  width: 550px;
+  height: 120px;
+  text-align: left;
   font-size: 44px;
   line-height: 1.36364;
   letter-spacing: 0.06em;
@@ -119,6 +123,7 @@ body {
 }
 
 .hero-txt {
+  text-align: left;
   font-weight: 400;
   line-height: 1.625;
   color: #fff;
@@ -183,7 +188,7 @@ body {
   width: 64px;
   height: 64px;
   box-shadow: 0 4px 12px 0 rgba(41, 24, 111, 0.2);
-  background: #06b25f;
+  background: var(--darkGreen);
 }
 
 .tech-img {
@@ -198,7 +203,7 @@ body {
   width: 64px;
   height: 64px;
   box-shadow: 0 4px 12px 0 rgba(41, 24, 111, 0.2);
-  background: #276ed8;
+  background: var(--mediumBlue);
 }
 
 .tech-unity-btn {
@@ -207,10 +212,14 @@ body {
   width: 64px;
   height: 64px;
   box-shadow: 0 4px 12px 0 rgba(41, 24, 111, 0.2);
-  background: #06b25f;
+  background: var(--darkGreen);
 }
 
 .tech-txt {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.58333;
+  color: var(--darkGrey);
 }
 
 .vote-area {
