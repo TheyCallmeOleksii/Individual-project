@@ -3,7 +3,6 @@
   | Root
   |============================
 */
-
 :root {
   --barkBlue: #194484;
   --mediumBlue: #0d6eb7;
@@ -15,6 +14,9 @@
   --white: #ffffff;
 
   --primary-font: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.25;
   --secondary-font: Open Sans, sans-serif;
   --main-txt-color: #242424;
 }
@@ -49,24 +51,46 @@ body {
 */
 .header {
 }
+
 .container {
 }
+
 .header-logo {
 }
+
 .hdr-logo {
 }
+
 .heade-logo-link {
 }
+
 .header-logo-txt {
 }
+
 .header-nav {
 }
+
 .header-list {
+  text-transform: uppercase;
+  color: #fff;
 }
+
 .header-list-item {
+  color: #fff;
 }
-.Header-button {
+
+.header-button {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
 }
+
+.header-button:hover,
+.header-button:focus {
+  background-color: var(--darkGreen);
+}
+
 /**
   |============================
   | Hero 
@@ -74,17 +98,44 @@ body {
 */
 .hero-section {
 }
+
 .hero-background {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: -1;
 }
 .hero-area {
 }
+
 .hero-title {
+  font-size: 44px;
+  line-height: 1.36364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
 }
+
 .hero-txt {
+  font-weight: 400;
+  line-height: 1.625;
+  color: #fff;
 }
 .hero-btn {
 }
+
 .hero-button {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--darkGreen);
 }
 /**
   |============================
@@ -93,183 +144,305 @@ body {
 */
 .tech-section {
 }
+
 .tech-title {
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--barkBlue);
 }
+
 .tech-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.58333;
+  text-align: center;
+  color: #242424;
 }
+
 .tech-stans-word {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.58333;
+  text-align: center;
+  color: #00a4e8;
 }
+
 .tech-assets-word {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.58333;
+  text-align: center;
+  color: #194484;
 }
+
 .tech-android-btn {
+  display: inline-block;
+  border-radius: 16px;
+  width: 64px;
+  height: 64px;
+  box-shadow: 0 4px 12px 0 rgba(41, 24, 111, 0.2);
+  background: #06b25f;
 }
+
 .tech-img {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
+
 .tech-apple-btn {
+  display: inline-block;
+  border-radius: 16px;
+  width: 64px;
+  height: 64px;
+  box-shadow: 0 4px 12px 0 rgba(41, 24, 111, 0.2);
+  background: #276ed8;
 }
+
 .tech-unity-btn {
+  display: inline-block;
+  border-radius: 16px;
+  width: 64px;
+  height: 64px;
+  box-shadow: 0 4px 12px 0 rgba(41, 24, 111, 0.2);
+  background: #06b25f;
 }
+
 .tech-txt {
 }
+
 .vote-area {
 }
+
 .tech-clutch-logo {
 }
+
 .revievs-btn {
 }
+
 /**
   |============================
   | Third Section
   |============================
 */
+
 .service-section {
 }
+
 .services {
 }
+
 .services-list {
 }
+
 .serv-list {
 }
+
 .services-title {
 }
+
 .services-txt {
 }
+
 .services-img {
 }
+
 /**
   |============================
   | Fourth Section
   |============================
 */
+
 .partner {
 }
+
 .container {
 }
+
 .partner-title {
 }
+
 .partner-btn {
 }
+
 /**
   |============================
   | Fifth Section
   |============================
 */
+
 .achievements {
 }
+
 .achievements-title {
 }
+
 .achievements-list {
 }
+
 .achievements-things {
 }
+
 .achievements-img {
 }
+
 .achievements-txt {
 }
+
 .achievements-moon-area {
 }
+
 .achievements-fifth-area {
 }
+
 .achievements-year-area {
 }
+
 .achievements-hungread-area {
 }
+
 .achievements-five-area {
 }
+
 /**
   |============================
   | Sixth Section
   |============================
 */
+
 .partners {
 }
+
 .partners-title {
 }
+
 .partners-list {
 }
+
 .partner-logo-link {
 }
+
 .partners-logo {
 }
+
 /**
   |============================
   | Seventh Section
   |============================
 */
+
 .contacts {
 }
+
 .contacts-main-title {
 }
+
 .contacts-title {
 }
+
 .contacts-txt {
 }
+
 .contacts-list {
 }
+
 .address-txt {
 }
+
 .contacts-link {
 }
+
 .phone-link {
 }
+
 .messenger-link {
 }
+
 .contacts-mail-fb {
 }
+
 .linkedin-link-fb {
 }
+
 .contacts-form {
 }
+
 .contacts-form-area {
 }
+
 .name-form {
 }
+
 .footer-input-email {
 }
+
 .email-form {
 }
+
 .message-form {
 }
+
 /**
   |============================
   | Footer
   |============================
 */
+
 .footer {
 }
+
 .footer-socials {
 }
+
 .footer-logo {
 }
+
 .footer-socials-list {
 }
+
 .footer-socials-icons {
 }
+
 .footer-services-block {
 }
+
 .footer-services-list {
 }
+
 .footer-services-item {
 }
+
 .footer-technologies-block {
 }
+
 .footel-technologies-list {
 }
+
 .footel-technologies-item {
 }
+
 .footel-technologies-link {
 }
+
 .footer-additional-list {
 }
+
 .footer-additional-item {
 }
+
 .footer-additional-link {
 }
+
 .footer-about {
 }
+
 .footer-about-list {
 }
+
 .footer-about-item {
 }
+
 .footer-about-link {
 }
