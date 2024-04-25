@@ -237,6 +237,10 @@ body {
   color: var(--white);
   background: var(--darkGreen);
 }
+.revievs-btn:hover,
+.revievs-btn:focus {
+  background: var(--lightGreen);
+}
 
 /**
   |============================
@@ -291,6 +295,8 @@ body {
 }
 
 .partner-title {
+  font-family: var(--third-family);
+  text-align: center;
   position: absolute;
   font-size: 44px;
   line-height: 1.36364;
@@ -306,7 +312,31 @@ body {
   z-index: -1;
 }
 
+.partner-txt {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  /* color: #fff; */
+}
+
 .partner-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.25;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #06b25f;
+  border-radius: 6px;
+  width: 160px;
+  height: 42px;
+  color: var(--white);
+  background-color: var(--lightGreen);
+}
+.partner-btn:hover,
+.partner-btn:focus {
+  color: var(--lightGreen);
+  background-color: var(--white);
 }
 
 /**
@@ -319,6 +349,12 @@ body {
 }
 
 .achievements-title {
+  font-family: var(--third-family);
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--barkBlue);
 }
 
 .achievements-list {
@@ -358,6 +394,12 @@ body {
 }
 
 .partners-title {
+  font-family: var(--third-family);
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--barkBlue);
 }
 
 .partners-list {
