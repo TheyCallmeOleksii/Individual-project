@@ -81,10 +81,14 @@ body {
 }
 
 .header-button {
+  background-color: transparent;
   text-transform: uppercase;
   text-align: center;
   color: #fff;
-  background-color: transparent;
+  width: 160px;
+  height: 42px;
+  border: 2px solid #fff;
+  border-radius: 6px;
 }
 
 .header-button:hover,
@@ -132,10 +136,14 @@ body {
 }
 
 .hero-button {
+  background-color: transparent;
   text-transform: uppercase;
   text-align: center;
   color: #fff;
-  background-color: transparent;
+  width: 160px;
+  height: 42px;
+  border: 2px solid #fff;
+  border-radius: 6px;
 }
 
 .hero-button:hover,
@@ -421,33 +429,65 @@ body {
 }
 
 .contacts-main-title {
+  font-family: 'Harabara', sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--barkBlue);
 }
 
 .contacts-title {
+  font-size: 24px;
+  text-align: center;
+  color: var(--darkGrey);
 }
 
 .contacts-txt {
+  font-weight: 400;
+  text-align: center;
+  color: var(--darkGrey);
 }
 
 .contacts-list {
 }
 
 .address-txt {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: var(--darkGrey);
 }
 
 .contacts-link {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: var(--darkGrey);
 }
 
 .phone-link {
 }
 
 .messenger-link {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: var(--darkGrey);
 }
 
 .contacts-mail-fb {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: var(--darkGrey);
 }
 
 .linkedin-link-fb {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: var(--darkGrey);
 }
 
 .contacts-form {
@@ -460,6 +500,14 @@ body {
 }
 
 .footer-input-email {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a9a9a9;
+  border: 1px solid #d7d7d7;
+  border-radius: 4px;
+  width: 339px;
+  height: 40px;
 }
 
 .email-form {
@@ -468,11 +516,38 @@ body {
 .message-form {
 }
 
+.contact-btn {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: #2da531;
+  border-radius: 6px;
+  width: 339px;
+  height: 50px;
+}
+
 /**
   |============================
   | Footer
   |============================
 */
+
+.foorer-container {
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-bckg {
+  position: absolute; /* змінюємо позицію на absolute */
+  /* bottom: 0; */
+  left: 0; /* фіксуємо зображення зліва футера */
+  width: 100%; /* щоб зображення займало всю ширину футера */
+  height: auto; /* щоб пропорції зображення зберігалися */
+  z-index: -1; /* нижче, ніж для тексту */
+}
 
 .footer {
 }
@@ -481,6 +556,17 @@ body {
 }
 
 .footer-logo {
+  color: #242424;
+  fill: #242424;
+  stroke: #242424;
+}
+
+.footer-logo-txt {
+  font-family: 'Harabara', sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  text-align: center;
+  /* color: #fff; */
 }
 
 .footer-socials-list {
@@ -490,6 +576,12 @@ body {
 }
 
 .footer-services-block {
+  font-family: 'Harabara', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .footer-services-list {
@@ -498,7 +590,16 @@ body {
 .footer-services-item {
 }
 
+.footer-services-txt {
+  font-weight: 400;
+}
+
 .footer-technologies-block {
+  font-family: 'Harabara', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  /* color: #fff; */
 }
 
 .footel-technologies-list {
@@ -508,6 +609,9 @@ body {
 }
 
 .footel-technologies-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .footer-additional-list {
@@ -517,6 +621,11 @@ body {
 }
 
 .footer-additional-link {
+  font-family: 'Harabara', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  /* color: #fff; */
 }
 
 .footer-about {
